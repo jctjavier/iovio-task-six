@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>TestNG:  Search</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Search</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 19 14:23:47 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28470 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.S01_Search.S01_01_SuccessfulSearch()'><b>S01_01_SuccessfulSearch</b><br>Test class: test.S01_Search<br>Test method: Verify that the user is able to input and obtain correct search results<br/>
+<a href="#Output-2130357594" onClick='toggleBox("Output-2130357594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2130357594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2130357594">
+Status: <font color="green"><b><b>Verify that the Bol image is displayed.</b><br>Expected Result: Bol image should be displayed.<br>Actual Result: Bol image was displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the navigation menu is displayed.</b><br>Expected Result: Navigation menu should be displayed.<br>Actual Result: Navigation menu was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the Account button is displayed.</b><br>Expected Result: Account button should be displayed.<br>Actual Result: Account button was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the Categories button is displayed.</b><br>Expected Result: Categories button should be displayed.<br>Actual Result: Categories button was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the Search bar is displayed.</b><br>Expected Result: Search bar should be displayed.<br>Actual Result: Search bar was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that user was able to successfully input search term.</b><br>Expected Result: User should be able to input search term in search text box.<br>Actual Result: Search term yoga mat was successfully entered.</b></font><br/>
+Status: <font color="green"><b><b>Verify that search text has not changed.</b><br>Expected Result: Search text should still be displayed and should have the same value.<br>Actual Result: Search term yoga mat was still displayed</b></font><br/>
+Status: <font color="green"><b><b>Verify search results are displayed.</b><br>Expected Result: Search results should be displayed.<br>Actual Result: Search results were successfully displayed.</b></font><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>test.S01_Search@4e718207</td></tr>
+</table><p>
+</body>
+</html>

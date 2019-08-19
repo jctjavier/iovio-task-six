@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Mobile Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the Bol image is displayed.</b><br>Expected Result: Bol image should be displayed.<br>Actual Result: Bol image was displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the navigation menu is displayed.</b><br>Expected Result: Navigation menu should be displayed.<br>Actual Result: Navigation menu was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the Account button is displayed.</b><br>Expected Result: Account button should be displayed.<br>Actual Result: Account button was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the Categories button is displayed.</b><br>Expected Result: Categories button should be displayed.<br>Actual Result: Categories button was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the Search bar is displayed.</b><br>Expected Result: Search bar should be displayed.<br>Actual Result: Search bar was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that user was able to successfully input search term.</b><br>Expected Result: User should be able to input search term in search text box.<br>Actual Result: Search term yoga mat was successfully entered.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that search text has not changed.</b><br>Expected Result: Search text should still be displayed and should have the same value.<br>Actual Result: Search term yoga mat was still displayed</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify search results are displayed.</b><br>Expected Result: Search results should be displayed.<br>Actual Result: Search results were successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S01_01_SuccessfulSearch--]]>
+    </line>
+    <line>
+      <![CDATA[=====Mobile Session End=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28470" started-at="2019-08-19T12:23:47Z" finished-at="2019-08-19T12:24:15Z">
+    <groups>
+      <group name="Search">
+        <method signature="S01_Search.S01_01_SuccessfulSearch()[pri:0, instance:test.S01_Search@4e718207]" name="S01_01_SuccessfulSearch" class="test.S01_Search"/>
+      </group> <!-- Search -->
+    </groups>
+    <test name="Search" duration-ms="28470" started-at="2019-08-19T12:23:47Z" finished-at="2019-08-19T12:24:15Z">
+      <class name="test.S01_Search">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.S01_Search@4e718207]" name="startSuite" is-config="true" duration-ms="369" started-at="2019-08-19T12:23:47Z" finished-at="2019-08-19T12:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Search@4e718207]" name="startMethod" is-config="true" duration-ms="8" started-at="2019-08-19T12:23:47Z" finished-at="2019-08-19T12:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S01_Search.S01_01_SuccessfulSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Search@4e718207]" name="startSetup" is-config="true" duration-ms="16547" started-at="2019-08-19T12:23:47Z" finished-at="2019-08-19T12:24:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Mobile Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="S01_01_SuccessfulSearch()[pri:0, instance:test.S01_Search@4e718207]" name="S01_01_SuccessfulSearch" duration-ms="11122" started-at="2019-08-19T12:24:04Z" description="Verify that the user is able to input and obtain correct search results" finished-at="2019-08-19T12:24:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the Bol image is displayed.</b><br>Expected Result: Bol image should be displayed.<br>Actual Result: Bol image was displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the navigation menu is displayed.</b><br>Expected Result: Navigation menu should be displayed.<br>Actual Result: Navigation menu was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the Account button is displayed.</b><br>Expected Result: Account button should be displayed.<br>Actual Result: Account button was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the Categories button is displayed.</b><br>Expected Result: Categories button should be displayed.<br>Actual Result: Categories button was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the Search bar is displayed.</b><br>Expected Result: Search bar should be displayed.<br>Actual Result: Search bar was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that user was able to successfully input search term.</b><br>Expected Result: User should be able to input search term in search text box.<br>Actual Result: Search term yoga mat was successfully entered.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that search text has not changed.</b><br>Expected Result: Search text should still be displayed and should have the same value.<br>Actual Result: Search term yoga mat was still displayed</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify search results are displayed.</b><br>Expected Result: Search results should be displayed.<br>Actual Result: Search results were successfully displayed.</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S01_01_SuccessfulSearch -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:test.S01_Search@4e718207]" name="endTest" is-config="true" duration-ms="364" started-at="2019-08-19T12:24:15Z" finished-at="2019-08-19T12:24:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S01_01_SuccessfulSearch--]]>
+            </line>
+            <line>
+              <![CDATA[=====Mobile Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.S01_Search@4e718207]" name="endSuite" is-config="true" duration-ms="827" started-at="2019-08-19T12:24:15Z" finished-at="2019-08-19T12:24:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- test.S01_Search -->
+    </test> <!-- Search -->
+  </suite> <!-- Suite -->
+</testng-results>
