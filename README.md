@@ -39,7 +39,7 @@ cd iovio-task-six
 * android.platform = os version of device
 Example:
 ```
-device.name=8UEDU17927003926
+device.name=emulator-1234
 
 android.platform=8.0
 ```
