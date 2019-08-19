@@ -9,7 +9,7 @@ echo '** Please ensure your mobile is connected and the BOL app is installed. **
 echo '**************************************************************************'
 
 git clone https://github.com/jctjavier/iovio-task-two.git
-cd iovio-task-two
+cd iovio-task-six
 git fetch 
 git pull
 

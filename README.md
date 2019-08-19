@@ -1,8 +1,11 @@
 # iovio-task-six
-##### status : *incomplete*
+##### status : *complete* :+1:
 
 ## Use Case
 * Automate on the mobile phone a Native/Hybrid/Mobile Web app
+
+### Limitations
+* Currently only limited to android app testing (Due to lack of resources)
 
 ## Pre-requisites
 1. Java JDK installed and added to environment variables
@@ -13,7 +16,7 @@
 6. Android Device
 7. Bol App installed in the Android Device
 8. Windows 7/8/10
-9. _(Optional)_ Node.JS and NPM
+9. _(Optional)_ Node.JS and NPM (For Scheduled Tasks)
 
 ## HOW TO : Get Device Name using ADB
 1. Ensure that you have ADB Tools installed 
@@ -69,13 +72,15 @@ mvn test
 3. File name is **ExtentReportResults.html**
 
 ### Add tests to Jenkins / Windows Scheduler / CRON jobs 
-#### Pre-requisites
+
+#### Windows Scheduler
+##### Pre-requisites for window scheduler
 1. Node.JS and NPM installed
 2. Appium Server installed
 3. Device connected with BOL app installed OR Emulator with BOL app installed
-
-#### Windows Scheduler
 1. Download the batch file **(tasksix_run.bat)** and save in a preferred directory
+
+##### Steps
 1. Open Control Panel and navigate to **Task Scheduler**
 2. Click **Create Task** in the Actions panel to create a new scheduled task.
 3. Use the wizard to set task properties
