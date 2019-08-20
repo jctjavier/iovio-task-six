@@ -99,3 +99,13 @@ _Example:_
 ```
 59 12 * * * ~/<PATH to sh file>/tasksix_run.sh
 ```
+
+### Project Details
+Below are the versions used for this project:
+* Java SDK 8
+* Maven 4.0.0
+* Selenium 3.14.0
+* Selenium Server 3.14.0 
+* TestNG 6.14.3
+* Extent Reports 2.41.2
+* Appium 6.1.0
