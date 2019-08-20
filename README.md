@@ -1,6 +1,7 @@
 # iovio-task-six
 ##### status : *complete* :+1:
 
+# Option 1
 ## Use Case
 * Automate on the mobile phone a Native/Hybrid/Mobile Web app
 
@@ -109,3 +110,11 @@ Below are the versions used for this project:
 * TestNG 6.14.3
 * Extent Reports 2.41.2
 * Appium 6.1.0
+
+# Option 2
+## Use Case
+* Capture a .HAR file in Google Chrome Developer Tools from a website that uses HTTP/2.0 or
+alternatively a website that uses the QUIC protocol
+
+## Details
+* File can be found here: [Option Two Folder](https://github.com/jctjavier/iovio-task-six/tree/master/OptionTwo)
